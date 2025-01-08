@@ -5,7 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #1D1D1D;
-  --lightGray: #D9D9D9;
+  --lightGrey: #D9D9D9;
+  --darkGrey: #8c8c8c;
+  --black: #282828;
 }
 
 html, body {
@@ -22,5 +24,22 @@ html, body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.button {
+  background-color: var(--lightGrey);
+  border-color: var(--darkGrey);
+  color: var(--black);
+  border-radius: 10%;
+  min-width: 5rem;
+  min-height: 2rem;
+}
+
+.borderBackground {
+  border-color: var(--darkGrey);
+  background-color: var(--darkGrey);
+  border-radius: 0.4rem;
+  border-width: 0.4rem;
 }
