@@ -28,18 +28,3 @@ body {
   font-weight: 600;
 }
 
-.button {
-  background-color: var(--lightGrey);
-  border-color: var(--darkGrey);
-  color: var(--black);
-  border-radius: 10%;
-  min-width: 5rem;
-  min-height: 2rem;
-}
-
-.borderBackground {
-  border-color: var(--darkGrey);
-  background-color: var(--darkGrey);
-  border-radius: 0.4rem;
-  border-width: 0.4rem;
-}

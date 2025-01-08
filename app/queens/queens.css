@@ -1,9 +1,16 @@
 .game-container {
-    width: clamp(30%, 20rem, 70%);
+    width: clamp(20% + 5rem, 40% + 5rem, 60% + 5rem);
 }
 
 .queensBoard {
     aspect-ratio: 1/1;
     background-color: var(--lightGrey);
-    border-radius: 2%;
+    border-radius: 0.4rem;
+}
+
+.borderBackground {
+    border-color: var(--darkGrey);
+    background-color: var(--darkGrey);
+    border-radius: 0.4rem;
+    border-width: 0.6rem;
 }

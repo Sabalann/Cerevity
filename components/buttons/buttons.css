@@ -1,0 +1,25 @@
+.button {
+    background-color: var(--lightGrey);
+    border-color: var(--darkGrey);
+    color: var(--black);
+    border-radius: 5px;
+    width: 100%;
+    min-height: 2.5rem;
+}
+
+.button-background {
+    display: flex;
+    justify-content: center;
+    width: clamp(2rem, 4rem, 7rem);
+    border-color: var(--darkGrey);
+    background-color: var(--darkGrey);
+    border-radius: 0.4rem;
+    border-width: 0.3rem;
+    transition: ease 0.1s;
+}
+
+.button-background:active {
+    transform: scale(1.05);
+    transition: ease 0.1s;
+    filter: brightness(1.05);
+}
